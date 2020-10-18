@@ -37,7 +37,7 @@ fabric.properties
 ### PhpStorm+all Patch ###
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
-
+.idea/*
 *.iml
 modules.xml
 *.ipr
