@@ -19,21 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ef7b46-ad8d-43a6-b2ac-7d768866693a" name="Default Changelist" comment="update git ignore">
-      <change afterPath="$PROJECT_DIR$/src/Controller/AudioFiles/AudioFilesReadController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AudioFiles/AudioFilesWriteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/AudioFiles/AudioFiles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/AudioFiles/AudioFilesHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="81ef7b46-ad8d-43a6-b2ac-7d768866693a" name="Default Changelist" comment="added react">
+      <change afterPath="$PROJECT_DIR$/assets/AudioEffects/components/DecimalStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/AudioEffects/components/IntegerStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/AudioEffects/components/ValueSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/AudioEffects/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/152.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/audiomaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/audiomaker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,13 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,9 +88,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
@@ -150,6 +157,10 @@
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1j4Hf6bMGku6CdIH1sExMa9qmhZ" />
@@ -168,10 +179,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Entity/AudioFiles" />
       <recent name="$PROJECT_DIR$/assets/styles" />
     </key>
@@ -185,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603056543318</updated>
       <workItem from="1603056544418" duration="987000" />
-      <workItem from="1603057879218" duration="4970000" />
+      <workItem from="1603057879218" duration="8635000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603057904704</created>
@@ -208,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603058575183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added react">
+      <created>1603086263363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603086263363</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added react">
+      <created>1603086277792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603086277792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="update git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
+    <MESSAGE value="added react" />
+    <option name="LAST_COMMIT_MESSAGE" value="added react" />
   </component>
   <component name="WindowStateProjectService">
     <state x="671" y="253" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603084681430">
@@ -240,23 +268,24 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="298" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603085456913" />
-    <state x="667" y="343" key="NewPhpClassDialog" timestamp="1603084693397">
+    <state x="667" y="343" key="NewPhpClassDialog" timestamp="1603087207373">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1016" y="464" key="NewPhpClassDialog/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603060037231" />
-    <state x="667" y="343" key="NewPhpClassDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603084693397" />
+    <state x="667" y="343" key="NewPhpClassDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603087207373" />
     <state x="1063" y="459" key="RollbackChangesDialog" timestamp="1603057003502">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1063" y="459" key="RollbackChangesDialog/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603057003502" />
-    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1603058577455">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="880" y="471" key="Vcs.Push.Dialog.v2/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603058577455" />
-    <state x="538" y="291" width="604" height="490" key="find.popup" timestamp="1603085704151">
+    <state x="578" y="348" key="Vcs.Push.Dialog.v2" timestamp="1603086265079">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="538" y="291" width="604" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603085704151" />
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603058577455" />
+    <state x="578" y="348" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603086265079" />
+    <state x="538" y="291" width="604" height="490" key="find.popup" timestamp="1603088495144">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="538" y="291" width="604" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603088495144" />
     <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603058644076">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
