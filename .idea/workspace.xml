@@ -19,10 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ef7b46-ad8d-43a6-b2ac-7d768866693a" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Entity/AudioFile.php" afterDir="false" />
+    <list default="true" id="81ef7b46-ad8d-43a6-b2ac-7d768866693a" name="Default Changelist" comment="update git ignore">
+      <change afterPath="$PROJECT_DIR$/src/Controller/AudioFiles/AudioFilesReadController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AudioFiles/AudioFilesWriteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/AudioFiles/AudioFiles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/AudioFiles/AudioFilesHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/audiomaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/audiomaker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,9 +149,13 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1j4Hf6bMGku6CdIH1sExMa9qmhZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -155,6 +170,12 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Entity/AudioFiles" />
+      <recent name="$PROJECT_DIR$/assets/styles" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -164,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603056543318</updated>
       <workItem from="1603056544418" duration="987000" />
-      <workItem from="1603057879218" duration="612000" />
+      <workItem from="1603057879218" duration="4970000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603057904704</created>
@@ -173,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603057904704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update git ignore">
+      <created>1603058528583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603058528583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update git ignore">
+      <created>1603058575183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603058575183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,20 +228,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="update git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1016" y="464" key="NewPhpClassDialog" timestamp="1603058316356">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="671" y="253" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603084681430">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="1016" y="464" key="NewPhpClassDialog/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603058316356" />
+    <state x="671" y="253" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603084681430" />
+    <state x="578" y="298" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603085456913">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="578" y="298" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603085456913" />
+    <state x="667" y="343" key="NewPhpClassDialog" timestamp="1603084693397">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1016" y="464" key="NewPhpClassDialog/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603060037231" />
+    <state x="667" y="343" key="NewPhpClassDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603084693397" />
     <state x="1063" y="459" key="RollbackChangesDialog" timestamp="1603057003502">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1063" y="459" key="RollbackChangesDialog/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603057003502" />
-    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1603058510237">
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1603058577455">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="880" y="471" key="Vcs.Push.Dialog.v2/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603058510237" />
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603058577455" />
+    <state x="538" y="291" width="604" height="490" key="find.popup" timestamp="1603085704151">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="538" y="291" width="604" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603085704151" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603058644076">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/-1680.413.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1603058644076" />
   </component>
 </project>

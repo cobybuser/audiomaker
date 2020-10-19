@@ -119,3 +119,9 @@ sketch
 /web/js/
 
 # End of https://www.toptal.com/developers/gitignore/api/react,phpstorm+all,symfony
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
